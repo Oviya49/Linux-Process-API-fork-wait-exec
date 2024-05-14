@@ -59,7 +59,7 @@ int main(void)
 
 
 
-##OUTPUT
+## OUTPUT
 
 ![image](https://github.com/Oviya49/Linux-Process-API-fork-wait-exec/assets/153576803/0bf5a875-a05e-47bf-8ea1-e0ece95fea7e)
 
@@ -107,7 +107,7 @@ exit(0);}
 
 
 
-##OUTPUT
+## OUTPUT
 
 ![image](https://github.com/Oviya49/Linux-Process-API-fork-wait-exec/assets/153576803/fecbc9f0-2b96-43d9-9f09-875af2c34059)
 
@@ -172,7 +172,7 @@ printf("Running ps with execlp. Now with path specified\n");
 
 
 
-##OUTPUT
+## OUTPUT
 ![image](https://github.com/Oviya49/Linux-Process-API-fork-wait-exec/assets/153576803/68bb1873-0efc-46c7-bfd7-ec2eea9b8405)
 
 
