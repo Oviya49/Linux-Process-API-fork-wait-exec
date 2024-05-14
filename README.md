@@ -1,10 +1,10 @@
 # Linux-Process-API-fork-wait-exec-
 Ex02-Linux Process API-fork(), wait(), exec()
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
-'''
+```
 Developed by: OVIYA.N
 Register number:212223040140
-
+```
 # AIM:
 To write C Program that uses Linux Process API - fork(), wait(), exec()
 
@@ -25,7 +25,7 @@ Test the C Program for the desired output.
 # PROGRAM:
 
 ## C Program to print process ID and parent Process ID using Linux API system calls
-
+```
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -44,7 +44,7 @@ int main(void)
 	printf("The process id: %d\n",process_id);
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0; }
-
+```
 
 
 
@@ -61,6 +61,7 @@ int main(void)
 
 ##OUTPUT
 
+![image](https://github.com/Oviya49/Linux-Process-API-fork-wait-exec/assets/153576803/0bf5a875-a05e-47bf-8ea1-e0ece95fea7e)
 
 
 
@@ -76,7 +77,7 @@ int main(void)
 
 
 ## C Program to create new process using Linux API system calls fork() and exit()
-
+```
 #include <stdlib.h>
 #include <sys/wait.h>
 #include<stdio.h>
@@ -95,7 +96,7 @@ sleep(100);
 exit(0);} 
 }
 
-
+```
 
 
 
@@ -108,6 +109,7 @@ exit(0);}
 
 ##OUTPUT
 
+![image](https://github.com/Oviya49/Linux-Process-API-fork-wait-exec/assets/153576803/fecbc9f0-2b96-43d9-9f09-875af2c34059)
 
 
 
@@ -116,7 +118,7 @@ exit(0);}
 
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
-
+```
 //C Program to execute Linux system commands using Linux API system calls exec() family
 
 #include <stdlib.h>
@@ -143,7 +145,7 @@ printf("Running ps with execlp. Now with path specified\n");
                 puts("child did not exit successfully\n");
         printf("Done.\n");
         exit(0);}
-        
+```        
         
 
 
@@ -171,9 +173,7 @@ printf("Running ps with execlp. Now with path specified\n");
 
 
 ##OUTPUT
-'''
-![image](https://github.com/Oviya49/Linux-Process-API-fork-wait-exec/assets/153576803/48a18934-34d2-4ded-ab9f-8d41a095e23a)
-'''
+![image](https://github.com/Oviya49/Linux-Process-API-fork-wait-exec/assets/153576803/68bb1873-0efc-46c7-bfd7-ec2eea9b8405)
 
 
 
